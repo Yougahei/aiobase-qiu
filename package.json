@@ -33,6 +33,7 @@
     "fast-json-parse": "^1.0.3",
     "fastify": "^4.26.0",
     "mkdirp": "^3.0.1",
+    "neogma": "^1.13.0",
     "pino-multi-stream": "^6.0.0",
     "reflect-metadata": "^0.1.13",
     "run-script-webpack-plugin": "^0.2.0",

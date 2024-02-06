@@ -46,4 +46,10 @@ export class AppController {
     console.log(this.configService.get('TEST_VALUE'));
     return this.configService.get('TEST_VALUE').name;
   }
+
+  @Get('createUser')
+  @Version([VERSION_NEUTRAL, '1'])
+  async createUser() {
+    return await this.appService.createUser();
+  }
 }
